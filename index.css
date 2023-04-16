@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://besthqwallpapers.com/Uploads/5-2-2022/188028/thumb2-colorful-rainbow-swirl-3d-swirl-colorful-3d-abstraction-rainbow-swirl-3d-colorful-background.jpg);
+}
+#body{
+    margin: 50px auto;
+    padding: 125px;
+    width: 800px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.689);
+    border-radius: 10px;
+
+
+    align-items: center;
+
+    box-shadow: 0px 0px 30px rgb(240, 225, 26);
+
+
+
+}
+#inred:focus{
+    background-color: red;
+    box-shadow: 1px 1px 30px rgb(255, 255, 255);
+    color: white;
+}
+#blue2:focus{
+    background-color: rgb(0, 0, 252);
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    color: white;
+
+}
+#greenbay:focus{
+    background-color: rgb(0, 255, 0);
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    
+}
+#inred{
+    width: 100px;
+margin-left: 10px;
+    height: 50px;
+   
+    border-radius: 10%;
+    
+  
+
+
+}
+#red{
+
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+#blue2{
+    width: 100px;
+    height: 50px;
+   
+    border-radius: 10%;
+    margin-left: 10px;
+
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+#greenbay{
+    width: 100px;
+    height: 50px;
+ 
+    border-radius: 10%;
+    margin-left: 10px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+   
+
+}
+#eqwal{
+    margin-left: 122px;
+
+   margin-top: 20px;
+}
+button:hover{
+  box-shadow: 1px 1px 30px rgb(58, 221, 233);
+    transform: scale(1.1);
+}
+button{
+
+    border-top: 30px ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color:rgb(109, 110, 9);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+ 
+}
